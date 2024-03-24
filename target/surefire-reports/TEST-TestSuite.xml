@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="917.108" tests="13" errors="0" skipped="5" failures="8">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="webdriver.chrome.driver" value="/Users/rahulshetty/.cache/selenium/chromedriver/mac-arm64/114.0.5735.90/chromedriver"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/rahulshetty/workingcode/SeleniumFrameworkDesign/target/test-classes:/Users/rahulshetty/workingcode/SeleniumFrameworkDesign/target/classes:/Users/rahulshetty/.m2/repository/org/seleniumhq/selenium/selenium-java/4.17.0/selenium-java-4.17.0.jar:/Users/rahulshetty/.m2/repository/org/seleniumhq/selenium/selenium-api/4.17.0/selenium-api-4.17.0.jar:/Users/rahulshetty/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.17.0/selenium-chrome-driver-4.17.0.jar:/Users/rahulshetty/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/rahulshetty/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.17.0/selenium-chromium-driver-4.17.0.jar:/Users/rahulshetty/.m2/repository/org/seleniumhq/selenium/selenium-json/4.17.0/selenium-json-4.17.0.jar:/Users/rahulshetty/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.17.0/selenium-manager-4.17.0.jar:/Users/rahulshetty/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v119/4.17.0/selenium-devtools-v119-4.17.0.jar:/Users/rahulshetty/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v120/4.17.0/selenium-devtools-v120-4.17.0.jar:/Users/rahulshetty/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v121/4.17.0/selenium-devtools-v121-4.17.0.jar:/Users/rahulshetty/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.17.0/selenium-devtools-v85-4.17.0.jar:/Users/rahulshetty/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.17.0/selenium-edge-driver-4.17.0.jar:/Users/rahulshetty/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.17.0/selenium-firefox-driver-4.17.0.jar:/Users/rahulshetty/.m2/repository/org/seleniumhq/selenium/selenium-http/4.17.0/selenium-http-4.17.0.jar:/Users/rahulshetty/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/rahulshetty/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.17.0/selenium-ie-driver-4.17.0.jar:/Users/rahulshetty/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.17.0/selenium-remote-driver-4.17.0.jar:/Users/rahulshetty/.m2/repository/com/google/guava/guava/33.0.0-jre/guava-33.0.0-jre.jar:/Users/rahulshetty/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/rahulshetty/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/rahulshetty/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/rahulshetty/.m2/repository/org/checkerframework/checker-qual/3.41.0/checker-qual-3.41.0.jar:/Users/rahulshetty/.m2/repository/com/google/errorprone/error_prone_annotations/2.23.0/error_prone_annotations-2.23.0.jar:/Users/rahulshetty/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/rahulshetty/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.23.1-alpha/opentelemetry-semconv-1.23.1-alpha.jar:/Users/rahulshetty/.m2/repository/io/opentelemetry/opentelemetry-api/1.34.1/opentelemetry-api-1.34.1.jar:/Users/rahulshetty/.m2/repository/io/opentelemetry/opentelemetry-context/1.34.1/opentelemetry-context-1.34.1.jar:/Users/rahulshetty/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.34.1/opentelemetry-exporter-logging-1.34.1.jar:/Users/rahulshetty/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.34.1/opentelemetry-sdk-common-1.34.1.jar:/Users/rahulshetty/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.34.1/opentelemetry-sdk-extension-autoconfigure-spi-1.34.1.jar:/Users/rahulshetty/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.34.1/opentelemetry-sdk-extension-autoconfigure-1.34.1.jar:/Users/rahulshetty/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.34.1-alpha/opentelemetry-api-events-1.34.1-alpha.jar:/Users/rahulshetty/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.34.1/opentelemetry-sdk-trace-1.34.1.jar:/Users/rahulshetty/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.34.1/opentelemetry-sdk-1.34.1.jar:/Users/rahulshetty/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.34.1/opentelemetry-sdk-metrics-1.34.1.jar:/Users/rahulshetty/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.34.1-alpha/opentelemetry-extension-incubator-1.34.1-alpha.jar:/Users/rahulshetty/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.34.1/opentelemetry-sdk-logs-1.34.1.jar:/Users/rahulshetty/.m2/repository/net/bytebuddy/byte-buddy/1.14.11/byte-buddy-1.14.11.jar:/Users/rahulshetty/.m2/repository/org/seleniumhq/selenium/selenium-os/4.17.0/selenium-os-4.17.0.jar:/Users/rahulshetty/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/rahulshetty/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.17.0/selenium-safari-driver-4.17.0.jar:/Users/rahulshetty/.m2/repository/org/seleniumhq/selenium/selenium-support/4.17.0/selenium-support-4.17.0.jar:/Users/rahulshetty/.m2/repository/io/cucumber/cucumber-java/7.5.0/cucumber-java-7.5.0.jar:/Users/rahulshetty/.m2/repository/io/cucumber/cucumber-core/7.5.0/cucumber-core-7.5.0.jar:/Users/rahulshetty/.m2/repository/io/cucumber/cucumber-gherkin/7.5.0/cucumber-gherkin-7.5.0.jar:/Users/rahulshetty/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.5.0/cucumber-gherkin-messages-7.5.0.jar:/Users/rahulshetty/.m2/repository/io/cucumber/gherkin/23.0.1/gherkin-23.0.1.jar:/Users/rahulshetty/.m2/repository/io/cucumber/messages/18.0.0/messages-18.0.0.jar:/Users/rahulshetty/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/Users/rahulshetty/.m2/repository/io/cucumber/cucumber-expressions/16.0.0/cucumber-expressions-16.0.0.jar:/Users/rahulshetty/.m2/repository/io/cucumber/datatable/7.5.0/datatable-7.5.0.jar:/Users/rahulshetty/.m2/repository/io/cucumber/cucumber-plugin/7.5.0/cucumber-plugin-7.5.0.jar:/Users/rahulshetty/.m2/repository/io/cucumber/docstring/7.5.0/docstring-7.5.0.jar:/Users/rahulshetty/.m2/repository/io/cucumber/html-formatter/19.2.0/html-formatter-19.2.0.jar:/Users/rahulshetty/.m2/repository/io/cucumber/ci-environment/9.1.0/ci-environment-9.1.0.jar:/Users/rahulshetty/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/rahulshetty/.m2/repository/io/cucumber/cucumber-testng/7.5.0/cucumber-testng-7.5.0.jar:/Users/rahulshetty/.m2/repository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar:/Users/rahulshetty/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/rahulshetty/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/rahulshetty/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/rahulshetty/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/rahulshetty/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/rahulshetty/.m2/repository/io/github/bonigarcia/webdrivermanager/5.1.1/webdrivermanager-5.1.1.jar:/Users/rahulshetty/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/rahulshetty/.m2/repository/com/github/docker-java/docker-java/3.2.13/docker-java-3.2.13.jar:/Users/rahulshetty/.m2/repository/com/github/docker-java/docker-java-core/3.2.13/docker-java-core-3.2.13.jar:/Users/rahulshetty/.m2/repository/com/github/docker-java/docker-java-api/3.2.13/docker-java-api-3.2.13.jar:/Users/rahulshetty/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/rahulshetty/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/rahulshetty/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/rahulshetty/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/rahulshetty/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/rahulshetty/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.13/docker-java-transport-httpclient5-3.2.13.jar:/Users/rahulshetty/.m2/repository/com/github/docker-java/docker-java-transport/3.2.13/docker-java-transport-3.2.13.jar:/Users/rahulshetty/.m2/repository/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar:/Users/rahulshetty/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/rahulshetty/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/rahulshetty/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.1.3/httpclient5-5.1.3.jar:/Users/rahulshetty/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.1.3/httpcore5-5.1.3.jar:/Users/rahulshetty/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.1.3/httpcore5-h2-5.1.3.jar:/Users/rahulshetty/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/rahulshetty/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/rahulshetty/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/rahulshetty/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/rahulshetty/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.3/jackson-databind-2.13.3.jar:/Users/rahulshetty/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.3/jackson-annotations-2.13.3.jar:/Users/rahulshetty/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.3/jackson-core-2.13.3.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/rahulshetty/workingcode/SeleniumFrameworkDesign/target/surefire/surefirebooter7289148660166112654.jar /Users/rahulshetty/workingcode/SeleniumFrameworkDesign/target/surefire 2024-02-04T07-02-02_524-jvmRun1 surefire13249261011212540283tmp surefire_010169559849904191926tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/rahulshetty/workingcode/SeleniumFrameworkDesign/target/test-classes:/Users/rahulshetty/workingcode/SeleniumFrameworkDesign/target/classes:/Users/rahulshetty/.m2/repository/org/seleniumhq/selenium/selenium-java/4.17.0/selenium-java-4.17.0.jar:/Users/rahulshetty/.m2/repository/org/seleniumhq/selenium/selenium-api/4.17.0/selenium-api-4.17.0.jar:/Users/rahulshetty/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.17.0/selenium-chrome-driver-4.17.0.jar:/Users/rahulshetty/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/rahulshetty/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.17.0/selenium-chromium-driver-4.17.0.jar:/Users/rahulshetty/.m2/repository/org/seleniumhq/selenium/selenium-json/4.17.0/selenium-json-4.17.0.jar:/Users/rahulshetty/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.17.0/selenium-manager-4.17.0.jar:/Users/rahulshetty/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v119/4.17.0/selenium-devtools-v119-4.17.0.jar:/Users/rahulshetty/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v120/4.17.0/selenium-devtools-v120-4.17.0.jar:/Users/rahulshetty/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v121/4.17.0/selenium-devtools-v121-4.17.0.jar:/Users/rahulshetty/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.17.0/selenium-devtools-v85-4.17.0.jar:/Users/rahulshetty/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.17.0/selenium-edge-driver-4.17.0.jar:/Users/rahulshetty/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.17.0/selenium-firefox-driver-4.17.0.jar:/Users/rahulshetty/.m2/repository/org/seleniumhq/selenium/selenium-http/4.17.0/selenium-http-4.17.0.jar:/Users/rahulshetty/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/rahulshetty/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.17.0/selenium-ie-driver-4.17.0.jar:/Users/rahulshetty/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.17.0/selenium-remote-driver-4.17.0.jar:/Users/rahulshetty/.m2/repository/com/google/guava/guava/33.0.0-jre/guava-33.0.0-jre.jar:/Users/rahulshetty/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/rahulshetty/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/rahulshetty/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/rahulshetty/.m2/repository/org/checkerframework/checker-qual/3.41.0/checker-qual-3.41.0.jar:/Users/rahulshetty/.m2/repository/com/google/errorprone/error_prone_annotations/2.23.0/error_prone_annotations-2.23.0.jar:/Users/rahulshetty/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/rahulshetty/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.23.1-alpha/opentelemetry-semconv-1.23.1-alpha.jar:/Users/rahulshetty/.m2/repository/io/opentelemetry/opentelemetry-api/1.34.1/opentelemetry-api-1.34.1.jar:/Users/rahulshetty/.m2/repository/io/opentelemetry/opentelemetry-context/1.34.1/opentelemetry-context-1.34.1.jar:/Users/rahulshetty/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.34.1/opentelemetry-exporter-logging-1.34.1.jar:/Users/rahulshetty/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.34.1/opentelemetry-sdk-common-1.34.1.jar:/Users/rahulshetty/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.34.1/opentelemetry-sdk-extension-autoconfigure-spi-1.34.1.jar:/Users/rahulshetty/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.34.1/opentelemetry-sdk-extension-autoconfigure-1.34.1.jar:/Users/rahulshetty/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.34.1-alpha/opentelemetry-api-events-1.34.1-alpha.jar:/Users/rahulshetty/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.34.1/opentelemetry-sdk-trace-1.34.1.jar:/Users/rahulshetty/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.34.1/opentelemetry-sdk-1.34.1.jar:/Users/rahulshetty/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.34.1/opentelemetry-sdk-metrics-1.34.1.jar:/Users/rahulshetty/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.34.1-alpha/opentelemetry-extension-incubator-1.34.1-alpha.jar:/Users/rahulshetty/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.34.1/opentelemetry-sdk-logs-1.34.1.jar:/Users/rahulshetty/.m2/repository/net/bytebuddy/byte-buddy/1.14.11/byte-buddy-1.14.11.jar:/Users/rahulshetty/.m2/repository/org/seleniumhq/selenium/selenium-os/4.17.0/selenium-os-4.17.0.jar:/Users/rahulshetty/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/rahulshetty/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.17.0/selenium-safari-driver-4.17.0.jar:/Users/rahulshetty/.m2/repository/org/seleniumhq/selenium/selenium-support/4.17.0/selenium-support-4.17.0.jar:/Users/rahulshetty/.m2/repository/io/cucumber/cucumber-java/7.5.0/cucumber-java-7.5.0.jar:/Users/rahulshetty/.m2/repository/io/cucumber/cucumber-core/7.5.0/cucumber-core-7.5.0.jar:/Users/rahulshetty/.m2/repository/io/cucumber/cucumber-gherkin/7.5.0/cucumber-gherkin-7.5.0.jar:/Users/rahulshetty/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.5.0/cucumber-gherkin-messages-7.5.0.jar:/Users/rahulshetty/.m2/repository/io/cucumber/gherkin/23.0.1/gherkin-23.0.1.jar:/Users/rahulshetty/.m2/repository/io/cucumber/messages/18.0.0/messages-18.0.0.jar:/Users/rahulshetty/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/Users/rahulshetty/.m2/repository/io/cucumber/cucumber-expressions/16.0.0/cucumber-expressions-16.0.0.jar:/Users/rahulshetty/.m2/repository/io/cucumber/datatable/7.5.0/datatable-7.5.0.jar:/Users/rahulshetty/.m2/repository/io/cucumber/cucumber-plugin/7.5.0/cucumber-plugin-7.5.0.jar:/Users/rahulshetty/.m2/repository/io/cucumber/docstring/7.5.0/docstring-7.5.0.jar:/Users/rahulshetty/.m2/repository/io/cucumber/html-formatter/19.2.0/html-formatter-19.2.0.jar:/Users/rahulshetty/.m2/repository/io/cucumber/ci-environment/9.1.0/ci-environment-9.1.0.jar:/Users/rahulshetty/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/rahulshetty/.m2/repository/io/cucumber/cucumber-testng/7.5.0/cucumber-testng-7.5.0.jar:/Users/rahulshetty/.m2/repository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar:/Users/rahulshetty/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/rahulshetty/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/rahulshetty/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/rahulshetty/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/rahulshetty/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/rahulshetty/.m2/repository/io/github/bonigarcia/webdrivermanager/5.1.1/webdrivermanager-5.1.1.jar:/Users/rahulshetty/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/rahulshetty/.m2/repository/com/github/docker-java/docker-java/3.2.13/docker-java-3.2.13.jar:/Users/rahulshetty/.m2/repository/com/github/docker-java/docker-java-core/3.2.13/docker-java-core-3.2.13.jar:/Users/rahulshetty/.m2/repository/com/github/docker-java/docker-java-api/3.2.13/docker-java-api-3.2.13.jar:/Users/rahulshetty/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/rahulshetty/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/rahulshetty/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/rahulshetty/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/rahulshetty/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/rahulshetty/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.13/docker-java-transport-httpclient5-3.2.13.jar:/Users/rahulshetty/.m2/repository/com/github/docker-java/docker-java-transport/3.2.13/docker-java-transport-3.2.13.jar:/Users/rahulshetty/.m2/repository/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar:/Users/rahulshetty/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/rahulshetty/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/rahulshetty/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.1.3/httpclient5-5.1.3.jar:/Users/rahulshetty/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.1.3/httpcore5-5.1.3.jar:/Users/rahulshetty/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.1.3/httpcore5-h2-5.1.3.jar:/Users/rahulshetty/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/rahulshetty/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/rahulshetty/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/rahulshetty/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/rahulshetty/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.3/jackson-databind-2.13.3.jar:/Users/rahulshetty/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.3/jackson-annotations-2.13.3.jar:/Users/rahulshetty/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.3/jackson-core-2.13.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/rahulshetty"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-07-18"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/rahulshetty/workingcode/SeleniumFrameworkDesign"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/rahulshetty/workingcode/SeleniumFrameworkDesign/target/surefire/surefirebooter7289148660166112654.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="17.0.8+9-LTS-211"/>
+    <property name="user.name" value="rahulshetty"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="12.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="browser" value="chrome"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/rahulshetty/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/3_/wh51kb951t7db1mxlwnp141h0000gn/T/"/>
+    <property name="java.version" value="17.0.8"/>
+    <property name="user.dir" value="/Users/rahulshetty/workingcode/SeleniumFrameworkDesign"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/rahulshetty/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.8+9-LTS-211"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="launchApplication" classname="rahulshettyacademy.tests.ErrorValidationsTest" time="913.846">
+    <failure message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;MacBook-Pro-2.local&apos;, ip: &apos;192.168.1.109&apos;" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'MacBook-Pro-2.local', ip: '192.168.1.109'
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:537)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:233)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:162)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:89)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+	at rahulshettyacademy.TestComponents.BaseTest.initializeDriver(BaseTest.java:57)
+	at rahulshettyacademy.TestComponents.BaseTest.launchApplication(BaseTest.java:109)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.TimeoutException: java.net.http.HttpTimeoutException: request timed out
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.1', java.version: '17.0.8'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:392)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:358)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:95)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	... 31 more
+Caused by: java.net.http.HttpTimeoutException: request timed out
+	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:63)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1270)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:899)
+]]></failure>
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="launchApplication" classname="rahulshettyacademy.tests.ErrorValidationsTest" time="916.911">
+    <failure message="Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114&#10;Current browser version is 121.0.6167.139 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome &#10;Host info: host: &apos;MacBook-Pro-2.local&apos;, ip: &apos;192.168.1.109&apos;&#10;Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.1&apos;, java.version: &apos;17.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]}]" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 121.0.6167.139 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome 
+Host info: host: 'MacBook-Pro-2.local', ip: '192.168.1.109'
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.1', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:139)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:95)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:233)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:162)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:89)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+	at rahulshettyacademy.TestComponents.BaseTest.initializeDriver(BaseTest.java:57)
+	at rahulshettyacademy.TestComponents.BaseTest.launchApplication(BaseTest.java:109)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+]]></failure>
+  </testcase>
+  <testcase name="LoginErrorValidation" classname="rahulshettyacademy.tests.ErrorValidationsTest" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;MacBook-Pro-2.local&apos;, ip: &apos;192.168.1.109&apos;"/>
+  </testcase>
+  <testcase name="tearDown" classname="rahulshettyacademy.tests.ErrorValidationsTest" time="913.849">
+    <failure message="Cannot invoke &quot;org.openqa.selenium.WebDriver.close()&quot; because &quot;this.driver&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null
+	at rahulshettyacademy.TestComponents.BaseTest.tearDown(BaseTest.java:121)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:536)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+]]></failure>
+  </testcase>
+  <testcase name="tearDown" classname="rahulshettyacademy.tests.ErrorValidationsTest" time="916.911">
+    <failure message="Cannot invoke &quot;org.openqa.selenium.WebDriver.close()&quot; because &quot;this.driver&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null
+	at rahulshettyacademy.TestComponents.BaseTest.tearDown(BaseTest.java:121)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:536)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+]]></failure>
+  </testcase>
+  <testcase name="ProductErrorValidation" classname="rahulshettyacademy.tests.ErrorValidationsTest" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;MacBook-Pro-2.local&apos;, ip: &apos;192.168.1.109&apos;"/>
+  </testcase>
+  <testcase name="launchApplication" classname="rahulshettyacademy.tests.SubmitOrderTest" time="913.849">
+    <failure message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;MacBook-Pro-2.local&apos;, ip: &apos;192.168.1.109&apos;" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'MacBook-Pro-2.local', ip: '192.168.1.109'
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:537)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:233)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:162)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:89)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+	at rahulshettyacademy.TestComponents.BaseTest.initializeDriver(BaseTest.java:57)
+	at rahulshettyacademy.TestComponents.BaseTest.launchApplication(BaseTest.java:109)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.TimeoutException: java.net.http.HttpTimeoutException: request timed out
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.1', java.version: '17.0.8'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:392)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:358)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:95)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	... 31 more
+Caused by: java.net.http.HttpTimeoutException: request timed out
+	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:63)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1270)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:899)
+]]></failure>
+  </testcase>
+  <testcase name="launchApplication" classname="rahulshettyacademy.tests.SubmitOrderTest" time="916.919">
+    <failure message="Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114&#10;Current browser version is 121.0.6167.139 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome &#10;Host info: host: &apos;MacBook-Pro-2.local&apos;, ip: &apos;192.168.1.109&apos;&#10;Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.1&apos;, java.version: &apos;17.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]}]" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 121.0.6167.139 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome 
+Host info: host: 'MacBook-Pro-2.local', ip: '192.168.1.109'
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.1', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:139)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:95)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:233)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:162)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:89)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+	at rahulshettyacademy.TestComponents.BaseTest.initializeDriver(BaseTest.java:57)
+	at rahulshettyacademy.TestComponents.BaseTest.launchApplication(BaseTest.java:109)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+]]></failure>
+  </testcase>
+  <testcase name="submitOrder" classname="rahulshettyacademy.tests.SubmitOrderTest" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;MacBook-Pro-2.local&apos;, ip: &apos;192.168.1.109&apos;"/>
+  </testcase>
+  <testcase name="submitOrder" classname="rahulshettyacademy.tests.SubmitOrderTest" time="0">
+    <skipped message="Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114&#10;Current browser version is 121.0.6167.139 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome &#10;Host info: host: &apos;MacBook-Pro-2.local&apos;, ip: &apos;192.168.1.109&apos;&#10;Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.1&apos;, java.version: &apos;17.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]}]"/>
+  </testcase>
+  <testcase name="tearDown" classname="rahulshettyacademy.tests.SubmitOrderTest" time="913.849">
+    <failure message="Cannot invoke &quot;org.openqa.selenium.WebDriver.close()&quot; because &quot;this.driver&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null
+	at rahulshettyacademy.TestComponents.BaseTest.tearDown(BaseTest.java:121)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:536)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+]]></failure>
+  </testcase>
+  <testcase name="tearDown" classname="rahulshettyacademy.tests.SubmitOrderTest" time="916.92">
+    <failure message="Cannot invoke &quot;org.openqa.selenium.WebDriver.close()&quot; because &quot;this.driver&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null
+	at rahulshettyacademy.TestComponents.BaseTest.tearDown(BaseTest.java:121)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:536)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+]]></failure>
+  </testcase>
+  <testcase name="OrderHistoryTest" classname="rahulshettyacademy.tests.SubmitOrderTest" time="0">
+    <skipped message="Method SubmitOrderTest.OrderHistoryTest()[pri:0, instance:rahulshettyacademy.tests.SubmitOrderTest@7a220c9a] depends on not successfully finished methods"/>
+  </testcase>
+</testsuite>
